@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Lee - Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        p {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .name {
+            font-style: italic;
+            font-size: 40px;
+        }
+
+    </style>
+    <script type="text/javascript">
+            // declare time zone formatting
+        let options = {
+            hour: 'numeric',
+            minute: 'numeric',
+            second: 'numeric',
+            },
+        formatter = new Intl.DateTimeFormat([], options);
+
+        // set time
+        setInterval(
+            () => {
+                document.querySelector("#time").innerText = formatter.format(new Date());
+            }
+        , 1000)
+
+    </script>
+</head>
+<body>
+    <b class="name">Jay Lee</b>
+    <p>Computer Science @ University of Minnesota - Twin Cities</p>
+    <p>Expected Graduation: May 2027</p>
+    <br>
+    <br>
+
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://handshake.umn.edu" alt="QR code to my handshake" width="300">
+    <br>
+    <br>
+
+    <span id="timezone">
+        <i>
+            TIME IN MINNEAPOLIS - 
+            <span id="time"></span>
+            <a href="https://24timezones.com/time-zone/mt"></a>
+        </i>
+    </span>
+    <br>
+    <br>
+
+    <nav>
+        <a href="about.html">About</a>
+        ||
+        <a href="project.html">Projects</a>
+        ||
+        <a href="resume.html">Resume</a>
+        ||
+        <a href="contact.html">Contact</a>
+        ||
+    </nav>
+    <br>
+    <br>
+
+
+</body>
+</html>
