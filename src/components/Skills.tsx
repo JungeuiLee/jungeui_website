@@ -5,7 +5,7 @@ export default function Skills() {
         <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8">
             <div>
             <h3 className="text-xl font-semibold mb-2">Languages</h3>
-            <p className="text-zinc-400">Python, Java, C, C++, JavaScript, TypeScript, HTML, CSS</p>
+            <p className="text-zinc-400">Java, C, C++, Python, JavaScript, TypeScript, HTML, CSS</p>
             </div>
             <div>
             <h3 className="text-xl font-semibold mb-2">Frameworks</h3>
@@ -14,10 +14,6 @@ export default function Skills() {
             <div>
             <h3 className="text-xl font-semibold mb-2">Tools</h3>
             <p className="text-zinc-400">Git, VS Code, IntelliJ, Linux, GDB</p>
-            </div>
-            <div>
-            <h3 className="text-xl font-semibold mb-2">Databases & Cloud</h3>
-            <p className="text-zinc-400">PostgreSQL, MySQL, MongoDB, Vercel, GCP, AWS</p>
             </div>
         </div>
         </section>

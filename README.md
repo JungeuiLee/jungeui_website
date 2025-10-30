@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jungeui Lee Portfolio
 
-## Getting Started
+Modern one-page portfolio built with Next.js 16, React 19, and Tailwind CSS 4. The site spotlights education, experience, projects, and skills with interactive touches such as live time-zone clocks and modal project details.
 
-First, run the development server:
+![Screenshot of the homepage](public/jungeuiPortfolio.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Highlights
+- Hero section shows live clocks for Minneapolis and Seoul, with quick links to dedicated pages
+- Clickable project cards open modals with longer descriptions, screenshots, and GitHub links
+- Education and military experience displayed via `react-vertical-timeline-component`
+- Fully responsive dark UI styled with Tailwind CSS 4
+- App Router setup deployable as a static build—no backend services required
+
+## Tech Stack
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript with React 19
+- **Styling**: Tailwind CSS 4, PostCSS
+- **UI Enhancements**: react-vertical-timeline-component, lucide-react icons
+
+## Project Structure
+```
+src/
+  app/
+    layout.tsx      # Root layout and metadata
+    page.tsx        # Main page composition
+    globals.css     # Tailwind-based global styles
+  components/
+    Hero.tsx        # Hero with live clocks
+    About.tsx       # Personal introduction
+    Experience.tsx  # Timeline component
+    Projects.tsx    # Project cards + modal
+    Skills.tsx      # Skills grid
+    Contact.tsx     # Contact and external links
+public/
+  *.png             # Project thumbnails and assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Getting Started
+Node.js 20 or newer is recommended.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Install dependencies
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Start the development server
+npm run dev
+# Visit http://localhost:3000
+```
 
-## Learn More
+### Lint & Production Build
+```bash
+npm run lint    # ESLint checks
+npm run build   # Production bundle
+npm run start   # Serve the build output
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
+Deploy to Vercel, Netlify, or any static-compatible host. Because the site does not rely on environment variables or server-side data sources, deployment configuration remains lightweight.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Customization Tips
+- Modify the `projects` array in `src/components/Projects.tsx` to feature new work.
+- Update the `Intl.DateTimeFormat` options in `Hero.tsx` to display different time zones.
+- Adjust global colors and typography through `globals.css` or Tailwind theme tokens.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contact: justicelee.dev@gmail.com  
+GitHub: https://github.com/JungeuiLee  
+LinkedIn: https://www.linkedin.com/in/jungeui-lee-49b264356/
