@@ -56,10 +56,12 @@ export default function Hero() {
             Building thoughtful, full-stack experiences — where design meets logic.
         </p>
         <div className="mb-4 flex flex-col sm:flex-row gap-4 text-sm text-zinc-400">
-            <p className="italic cursor-pointer hover:text-blue-400 transition" onClick={() => router.push('/usa')}>
+            <p className="italic cursor-pointer hover:text-blue-400 transition">
+            {/* onClick={() => router.push('/usa')} */}
             🇺🇸 TIME IN MINNEAPOLIS - {mnTime}
             </p>
-            <p className="italic cursor-pointer hover:text-blue-400 transition" onClick={() => router.push('/korea')}>
+            <p className="italic cursor-pointer hover:text-blue-400 transition">
+            {/* onClick={() => router.push('/korea')} */}
             🇰🇷 TIME IN SEOUL - {seoulTime}
             </p>
         </div>
