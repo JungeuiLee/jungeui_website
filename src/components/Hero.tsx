@@ -53,7 +53,7 @@ export default function Hero() {
             Computer Science @ University of Minnesota - Twin Cities
         </p>
         <p className="text-lg md:text-xl text-zinc-400 max-w-3xl">
-            CS undergraduate focused on backend systems and data workflows. — where design meets logic.
+            CS undergraduate focused on backend systems and data workflows.
         </p>
         <div className="mb-4 flex flex-col sm:flex-row gap-4 text-sm text-zinc-400">
             <p className="italic cursor-pointer hover:text-blue-400 transition">
