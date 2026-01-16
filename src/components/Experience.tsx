@@ -35,6 +35,18 @@ export default function () {
             </p>
             </VerticalTimelineElement>
 
+            <VerticalTimelineElement
+            date="2025 - 2025"
+            icon={<Briefcase size={20} />}
+            iconStyle={{ background: '#2563eb', color: '#fff' }}
+            contentStyle={{ background: '#0a0a0a', color: '#fff', border: '1px solid #333' }}
+            >
+            <h3 className="font-semibold text-lg">Boom Communications</h3>
+            <p className="text-sm text-zinc-400">
+                Software Engineer Intern
+            </p>
+            </VerticalTimelineElement>
+
 
         </VerticalTimeline>
         </section>

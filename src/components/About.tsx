@@ -4,9 +4,10 @@ export default function About() {
         <div className="max-w-3xl text-center">
             <h2 className="text-3xl font-bold mb-6">About Me</h2>
             <p className="text-zinc-400 text-lg leading-relaxed">
-            I'm a Computer Science student at the University of Minnesota – Twin Cities.
-            Passionate about full-stack development and building useful, scalable applications.
-            I enjoy turning ideas into products that people can actually use.
+            Computer Science undergraduate at the University of Minnesota – Twin Cities, focused on backend-oriented and data-driven software development.
+
+            Interested in building reliable web systems, improving user-facing experiences, and understanding how scalable software is designed and maintained in real-world environments.
+            Experience includes frontend web improvements, collaborative development workflows, and hands-on projects using modern web technologies.
             </p>
         </div>
         </section>

@@ -5,7 +5,7 @@ export default function Contact() {
             <p className="text-zinc-400 mb-2">Email: justicelee.dev@gmail.com</p>
         <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <a
-            href="https://drive.google.com/file/d/1C6SFEfhUKYlGmvKq0KBzLYSVJSnEsqi9/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1bVvUZXHKwWuzKdwxTaWV3kQDEdHcimWN/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-black px-6 py-2 rounded hover:bg-zinc-200 transition"
