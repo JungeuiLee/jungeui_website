@@ -41,7 +41,7 @@ export default function Hero() {
         <section className="min-h-screen flex flex-col justify-center items-center text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
         <a
-            href="https://www.linkedin.com/in/jungeui-lee-49b264356/"
+            href="https://www.linkedin.com/in/jungeui1297/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition-colors duration-300"
@@ -53,7 +53,7 @@ export default function Hero() {
             Computer Science @ University of Minnesota - Twin Cities
         </p>
         <p className="text-lg md:text-xl text-zinc-400 max-w-3xl">
-            CS undergraduate focused on backend systems and data workflows.
+            GPU &amp; ML systems research, full-stack engineering, and a live iOS app.
         </p>
         <div className="mb-4 flex flex-col sm:flex-row gap-4 text-sm text-zinc-400">
             <p className="italic cursor-pointer hover:text-blue-400 transition">
