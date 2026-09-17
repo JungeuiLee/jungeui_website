@@ -19,6 +19,7 @@ const projects: Project[] = [
       "A live iOS app on the App Store \u2014 an anonymous campus community for Korean international students in the U.S. Sign-up requires .edu email verification, so identities are verified while conversations stay anonymous. I lead engineering: the Firestore data model, the OTP email verification flow (built so that registered and unregistered addresses behave identically, preventing account enumeration), server-side notification delivery through Cloud Functions, and the security rules and composite indexes behind it. Currently at 150+ registered users and 124+ downloads, expanding to additional campuses.",
     // image: "/bamboo.png",
     appstore: "https://apps.apple.com/us/app/bamboo-campus-community/id6799337020",
+    github: "https://github.com/JungeuiLee/bamboo_architecture",
   },
   {
     title: "Course Scheduler (CSP)",
