@@ -36,10 +36,3 @@ src/
     ├── Contact.tsx     # Contact links
     └── Navbar.tsx      # Section navigation
 ```
-
-## Running Locally
-```bash
-npm install
-npm run dev
-```
-Then open [http://localhost:3000](http://localhost:3000).
