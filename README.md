@@ -18,9 +18,3 @@ Personal portfolio site built with Next.js 16, React 19, and Tailwind CSS 4.
 - **Styling**: Tailwind CSS 4, PostCSS
 - **Icons**: lucide-react
 - **Images**: next/image optimization
-
-## Running Locally
-```bash
-npm install
-npm run dev
-```
