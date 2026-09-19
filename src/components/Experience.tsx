@@ -67,7 +67,7 @@ const experiences: ExperienceItem[] = [
       "Architected the application's data model, authentication flow, and OTP-based email verification system",
       'Designed Firestore security rules and composite indexes to support a scalable, production-grade service',
       'Directed the technical roadmap across cloud infrastructure, notification systems, and Flutter/Dart client integration',
-      'Grew the platform to 150+ registered users and 124+ downloads to date, with active outreach to additional campuses',
+      'Grew the platform through active outreach, expanding from the first campus to additional schools',
     ],
   },
   {
